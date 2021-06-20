@@ -1,0 +1,93 @@
+/* Add a black background color to the top navigation */
+.sl1 {
+    height: 120px;
+    float: left;
+   position: relative;
+    bottom: 30px;
+
+}
+html, body{
+    width: 800px;
+    height: 600px;
+}
+
+.menu {
+    margin-top: 30px;
+    height: 30px;
+    padding: 4px;
+    font-size: 18px;
+    font-family: Helvetica, Arial;
+    background-color: green;
+    background: linear-gradient(to top, #81b518, #92CD00);
+}
+.menu table{
+    margin-left: 120px;
+}
+.menu a {
+    position: relative;
+    top: 5px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.content {
+    position: relative;
+    top: 42px;
+    float: left;
+    color: #192402;
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 22px;
+}
+h1{
+    position: relative;
+    top: 52px;
+    text-align: center;
+    color: #92CD00;
+    font-family: Helvetica, Arial;
+
+}
+.sl2 {
+    position: relative;
+    top: 52px;
+    float: right;
+    width: 350px;
+
+}
+.sodrzina{
+    position: absolute;
+    width: 450px;
+    float: left;
+    height: 420px;
+}
+footer {
+    text-align: center;
+    clear: both;
+    height: 30px;
+    color: #ffffff;
+    background-color: #81b518;
+    font-size: 18px;
+    font-family: Helvetica, Arial;
+}
+footer p{
+    position: relative;
+    top: 5px;
+}
+.right {
+    float: right;
+    width: 350px;
+    height: 445px;
+}
+
+
